@@ -17,3 +17,7 @@ update-lambda-image:
 deploy:
 	@$(MAKE) push-image
 	@$(MAKE) update-lambda-image
+
+run-test:
+	@npx tsc
+	@npx jest

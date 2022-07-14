@@ -32,3 +32,7 @@ Create a lambda function in the same AWS Region using the name you set in the `.
 Execute the next command to deploy your changes to AWS Lambda: `make deploy`.
 
 Now you can test your function in the AWS Console.
+
+## Test
+
+Test handler using the next command `make run-test`
